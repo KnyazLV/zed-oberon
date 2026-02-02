@@ -1,0 +1,13 @@
+.DS_Store
+**/.DS_Store
+grammars/*/src/*.o
+grammars/*/src/*.a
+grammars/*/src/*.so
+grammars/*/src/*.dylib
+grammars/*/src/*.dll
+grammars/*/node_modules
+grammars/*/build
+grammars/*/.envrc
+EOF
+
+test.Mod
