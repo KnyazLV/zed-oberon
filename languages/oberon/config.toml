@@ -1,0 +1,5 @@
+name = "Oberon"
+grammar = "oberon07"
+path_suffixes = ["Mod", "mod"]
+line_comments = ["(*"]
+block_comment = ["(*", "*)"]
