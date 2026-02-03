@@ -8,7 +8,7 @@ Based on the Tree-sitter grammar by [geekstakulus/tree-sitter-oberon-07](https:/
 
 - Syntax highlighting (complete Oberon-07 support)
 - Auto-indentation for blocks (`BEGIN`/`END`, `IF`, `WHILE`, etc.)
-- Structural navigation (Outline view) *[Coming soon]*
+- Structural navigation (Outline view with procedure signatures)
 - Language Server Protocol (LSP) support *[Planned]*
 
 ## Installation (Manual / Dev)

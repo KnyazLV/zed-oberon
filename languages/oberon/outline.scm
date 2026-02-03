@@ -1,6 +1,5 @@
 (module
-  (module_header
-    modulename: (ident) @name)
+  (module_header) @name
 ) @item
 
 (const_decl) @name @item
