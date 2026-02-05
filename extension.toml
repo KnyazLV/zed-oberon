@@ -3,7 +3,7 @@ name = "Oberon"
 version = "0.0.1"
 schema_version = 1
 authors = ["Knyaz"]
-description = "Oberon support"
+description = "Oberon-07 language support"
 
 [grammars.oberon07]
 repository = "https://github.com/geekstakulus/tree-sitter-oberon-07"
