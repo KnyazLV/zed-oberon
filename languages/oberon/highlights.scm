@@ -37,7 +37,7 @@
     (ident_def
       (ident) @variable)))
 
-(assignment 
+(assignment
   (designator
     (qualident) @variable))
 
@@ -129,40 +129,31 @@
 
 ] @keyword
 
-(kReturn) @keyword.return
+(kReturn) @return
 
 (if_statement
   [
     (kIf)
-    (kCase)
     (kThen)
     (kElse)
     (kElseif)
-  ] @conditional)
+  ] @keyword)
+
+(case_statement
+  (kCase) @keyword
+  (kOf) @keyword
+  (kEnd) @keyword)
 
 (kImport) @include
 
 (for_statement
-  [
-    (kFor)
-    (kTo)
-    (kBy)
-    (kDo)
-    (kEnd)
-  ] @repeat)
+  [ (kFor) (kTo) (kBy) (kDo) (kEnd) ] @keyword)
 
 (repeat_statement
-  [
-    (kRepeat)
-    (kUntil)
-  ] @repeat)
+  [ (kRepeat) (kUntil) ] @keyword)
 
 (while_statement
-  [
-    (kWhile)
-    (kDo)
-    (kEnd)
-  ] @repeat)
+  [ (kWhile) (kDo) (kEnd) ] @keyword)
 ; -- Punctuation & operators
 
 [
